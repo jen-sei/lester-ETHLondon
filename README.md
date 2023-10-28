@@ -12,7 +12,7 @@ Our project aims to create a user-friendly, mobile-first cross-chain escrow serv
 
 **Visual Prototype:** Try and feel our UX [here](https://www.figma.com/proto/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23-1259&t=IIE536k717Ey4Lnj-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=23%3A1259&prev-org-id=external-teams).
 
-**Design Process:** Explore our minimalistic UX design [here](https://www.figma.com/file/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23%3A1259&mode=design&t=IIE536k717Ey4Lnj-1)
+**Design Process:** Explore our minimalistic UX design [here](https://www.figma.com/file/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23%3A1259&mode=design&t=IIE536k717Ey4Lnj-1).
 
 **Demo:** Watch our video [here]().
 
@@ -23,6 +23,13 @@ Our project aims to create a user-friendly, mobile-first cross-chain escrow serv
 
 ...
 
+...
+
+...
+
+...
+
+## Architecture
 ...
 
 ...
