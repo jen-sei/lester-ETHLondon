@@ -5,7 +5,11 @@ A mobile first cross-chain escrow service, leveraging Wormhole for seemlesss bri
 ![Frame 1 (2)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/10798ba4-2921-46d4-b86d-c367daff10d3)
 
 ## Description
-Our project aims to create a user-friendly, mobile-first cross-chain escrow service that leverages the power of Wormhole for seamless blockchain bridging. It incorporates account abstraction for a secure and frictionless experience. This escrow service enables users to securely trade assets across different blockchain networks via multichain escrow aggregator agent while minimizing the risks associated with traditional escrow services.
+Blockchain networks operate in silos, each with its own unique features and ecosystems. While this diversity fosters innovation, it also presents challenges when users want to trade assets across different chains. Traditional escrow services have acted as intermediaries to mitigate counterparty risks, but they often introduce inefficiencies and centralization.
+
+**LESTER: A Mobile-First Cross-Chain Escrow Service**
+
+The LESTER project, conceived at ETHLondon, seeks to address these challenges by combining self-sovereign identity, blockchain bridging, and account abstraction to create a user-friendly, mobile-first cross-chain escrow service for a secure and frictionless experience. It enables users to securely trade assets across different blockchain networks via multichain escrow aggregator agent while minimizing the risks associated with traditional escrow services.
 
 ## Links
 **Slides:** Check out our deck [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/SLIDES.md).
