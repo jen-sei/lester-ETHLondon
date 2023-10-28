@@ -1,78 +1,64 @@
-# 🏗 Scaffold-ETH 2
+# Lester-ETHLondon
+### Made during ETHLondon 2023 hackathon
+A mobile first cross-chain escrow service, leveraging Wormhole for seemlesss bridging ✨
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+![Frame 1 (2)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/10798ba4-2921-46d4-b86d-c367daff10d3)
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+## Description
+Our project aims to create a user-friendly, mobile-first cross-chain escrow service that leverages the power of Wormhole for seamless blockchain bridging. It incorporates account abstraction for a secure and frictionless experience. This escrow service enables users to securely trade assets across different blockchain networks via multichain escrow aggregator agent while minimizing the risks associated with traditional escrow services.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
+## Links
+**Slides:** Check out our deck [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/SLIDES.md).
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+**Visual Prototype:** Try and feel our UX [here](https://www.figma.com/proto/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23-1259&t=IIE536k717Ey4Lnj-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=23%3A1259&prev-org-id=external-teams).
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/1171422a-0ce4-4203-bcd4-d2d1941d198b)
+**Design Process:** Explore our minimalistic UX design [here](https://www.figma.com/file/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23%3A1259&mode=design&t=IIE536k717Ey4Lnj-1)
 
-## Requirements
+**Demo:** Watch our video [here]().
 
-Before you begin, you need to install the following tools:
+**License:** GNU General Public License v3.0
 
-- [Node (v18 LTS)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+## Sponsors Tech Used
+...
 
-## Quickstart
+...
 
-To get started with Scaffold-ETH 2, follow the steps below:
+...
 
-1. Clone this repo & install dependencies
+...
 
-```
-git clone https://github.com/scaffold-eth/scaffold-eth-2.git
-cd scaffold-eth-2
-yarn install
-```
+...
 
-2. Run a local network in the first terminal:
+## Deployments
+...
 
-```
-yarn chain
-```
+...
 
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `hardhat.config.ts`.
+...
 
-3. On a second terminal, deploy the test contract:
+...
 
-```
-yarn deploy
-```
+...
 
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
+## Bounties
+**TRIAS** - Bounty set B: FLock AIxWeb3 Tool - Unlocking Decentralized Intelligence with FLock SDK
 
-4. On a third terminal, start your NextJS app:
+**API3** - Best implementation of an API3 Oracle
 
-```
-yarn start
-```
+**Hyperlane** - Build a Hyperlane V3 Hook
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
+**Etherspot** - Best Implementation of Etherspot's TransactionKit + Best Security Implementation
 
-Run smart contract test with `yarn hardhat:test`
+**Wormhole** - Cross-chain App
 
-- Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
-- Edit your frontend in `packages/nextjs/pages`
-- Edit your deployment scripts in `packages/hardhat/deploy`
+**Rarimo** - Identity in DeFi Challange
 
-## Documentation
+**Envio** - You are a multichain wizard
 
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
+**Euler** - Euler Lens Challange
 
-To know more about its features, check out our [website](https://scaffoldeth.io).
+**Scaffold-ETH 2** - Build using Scaffold-ETH
 
-## Contributing to Scaffold-ETH 2
+##
 
-We welcome contributions to Scaffold-ETH 2!
-
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+_DISCLAIMER: Our project has been created from scratch at the ETHLondon._
