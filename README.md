@@ -9,7 +9,7 @@ Blockchain networks operate in silos, each with its own unique features and ecos
 
 **LESTER: A Mobile-First Cross-Chain Escrow Service**
 
-The LESTER project, conceived at ETHLondon, seeks to address these challenges by combining self-sovereign identity, blockchain bridging, and account abstraction to create a user-friendly, mobile-first cross-chain escrow service for a secure and frictionless experience. It enables users to securely trade assets across different blockchain networks via multichain escrow aggregator agent while minimizing the risks associated with traditional escrow services.
+The LESTER project, conceived at ETHLondon, seeks to address these challenges by combining self-sovereign identity, blockchain bridging, and account abstraction to create a user-friendly, mobile-first cross-chain escrow service for a secure and frictionless experience. It enables users to securely trade assets across different blockchain networks via multichain escrow aggregator agent while making the experience LESS TERRIBLE!
 
 ## Links
 **Slides:** Check out our deck [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/SLIDES.md).
