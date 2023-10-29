@@ -18,7 +18,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Design Process:** Explore our minimalistic UX design [here](https://www.figma.com/file/yMeenj75p2KI0dEoQ3ClOB/Wireframe?type=design&node-id=23%3A1259&mode=design&t=IIE536k717Ey4Lnj-1).
 
-**Demo:** Watch our video [here]().
+**Demo:** Watch our video [here](https://tape.xyz/watch/0x18ab-0xe1-DA-f2aa8bdf).
 
 **License:** GNU General Public License v3.0
 
