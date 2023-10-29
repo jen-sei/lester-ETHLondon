@@ -40,18 +40,17 @@ Wormhole bridge is in the core of our application. It transfers messages about `
 
 The project uses Scaffold-Eth-2 as a base for mobile dApp to speed up development process. We've used it's exposed React hooks for easier integration an automatic hardhat ABI generation was extremally helpful, especially for debugging smart contracts.
 
-## Architecture
-...
-
-...
-
-...
-
 ## Deployments
 
 **Celo Alfajores testnet:**
 
+- LesterToken.sol - 0x8600b6D612AeA51cEFb960b7EC6Ea37976424d0C
+- EscrowSingleChain.sol - 0x225Fe3e0271EfD4b21f8695d2932A180759aD718
+
 **Avalanche Fuji testnet:**
+
+- LesterToken.sol - 0x353a8b122ea3C5214f14A5A8c1a73a6865923496
+- EscrowSingleChain.sol - 0x0FbDeA202a2457B18D59f858f2c650F41C49bf54
 
 ## Bounties
 ### <ins>Code</ins>
