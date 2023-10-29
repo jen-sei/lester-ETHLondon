@@ -14,6 +14,7 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 	}
 
 	struct Escrow {
+		uint256 escrowId;
 		address buyer;
 		address payable seller;
 		uint256 amount;
@@ -55,9 +56,10 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 		address payable _payer,
 		uint256 _amount,
 		string memory _comment,
-		uint16 _sourceChain,
+		uint16 _sourceChain
 	) public {
 		escrows[escrowCount] = Escrow(
+			escrowCount,
 			_payer,
 			_taker,
 			_amount,
