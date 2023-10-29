@@ -24,21 +24,21 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 ## Sponsors Tech Used
 
-### Wormhole
-
-Wormhole bridge is in the core of our application. It transfers messages about `Payment request` escrow state between supported chains and abstracting chain selection away from the end-suer. Thanks to this infrastructure, person connecting to the dApp doesn't have to worry about chosing specific chain, whether or not his tokens are on the same one as the chain selected by the other person. With support for pretty much any EVM chain we can imagine example where Alice connects on Polygon and will use it to send transaction, initial funds that she's going to use are stored partially on Optimism and Partially Arbitrum. Then the Bob can still use Ethereum to request the money from Alice on other chain without worrying about manual bridging of tokens and manual withdrawals/deposits.
-
 ### Hyperlane
 
 We've created Wormhole hook and basic ISM for the upcoming Hyperlane V3 for additional security. It takes a message from Mailbox and forwards it to the Wormhole relayer using `postDispatch` function. The hook implements `IPostDispatchHook` for full compatibility with the Hyperlance.
 
-### Scaffold-Eth-2
-
-The project uses Scaffold-Eth-2 as a base for mobile dApp to speed up development process. We've used it's exposed React hooks for easier integration an automatic hardhat ABI generation was extremally helpful, especially for debugging smart contracts.
-
 ### Etherspot
 
 Making the transaction cross-chain themselves is not enough. That's why we've decidede to integratete Etherspot Transaction Kit in order to implement Accuont Abstraction for the end-user as a part of better UX.
+
+### Wormhole
+
+Wormhole bridge is in the core of our application. It transfers messages about `Payment request` escrow state between supported chains and abstracting chain selection away from the end-suer. Thanks to this infrastructure, person connecting to the dApp doesn't have to worry about chosing specific chain, whether or not his tokens are on the same one as the chain selected by the other person. With support for pretty much any EVM chain we can imagine example where Alice connects on Polygon and will use it to send transaction, initial funds that she's going to use are stored partially on Optimism and Partially Arbitrum. Then the Bob can still use Ethereum to request the money from Alice on other chain without worrying about manual bridging of tokens and manual withdrawals/deposits.
+
+### Scaffold-Eth-2
+
+The project uses Scaffold-Eth-2 as a base for mobile dApp to speed up development process. We've used it's exposed React hooks for easier integration an automatic hardhat ABI generation was extremally helpful, especially for debugging smart contracts.
 
 ## Architecture
 ...
@@ -59,17 +59,12 @@ Avalanche Fuji testnet
 
 ## Bounties
 ### <ins>Code</ins>
-**TRIAS** - Bounty set B: FLock AIxWeb3 Tool - Unlocking Decentralized Intelligence with FLock SDK
-
-**API3** - Best implementation of an API3 Oracle
 
 **Hyperlane** - Build a Hyperlane V3 Hook
 
 **Etherspot** - Best Implementation of Etherspot's TransactionKit + Best Security Implementation
 
 **Wormhole** - Cross-chain App
-
-**Envio** - You are a multichain wizard
 
 **Scaffold-ETH 2** - Build using Scaffold-ETH
 
