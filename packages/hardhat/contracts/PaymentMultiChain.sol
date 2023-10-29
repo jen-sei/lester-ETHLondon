@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "./IWormholeRelayer.sol";
 import "./IWormholeReceiver.sol";
 
-contract PaymentMultiChain is Ownable, IWormholeReceiver {
+contract EscrowSingleChain is Ownable, IWormholeReceiver {
 	enum PaymentState {
 		OPEN,
 		PAID,
