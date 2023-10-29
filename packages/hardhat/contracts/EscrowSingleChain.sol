@@ -23,7 +23,7 @@ contract EscrowSingleChain is Ownable {
 	uint256 public escrowCount;
 	IERC20 public paymentCurrency;
 
-	constructor(IERC20 _token) Ownable(msg.sender) {
+	constructor(IERC20 _token) Ownable() {
 		paymentCurrency = _token;
 	}
 

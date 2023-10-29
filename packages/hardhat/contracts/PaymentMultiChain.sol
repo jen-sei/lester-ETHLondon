@@ -20,13 +20,14 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 		PaymentState escrowStatus;
 		string comment;
 		uint16 sourceChain;
+        uint256 time;
 	}
 
 	mapping(uint256 => Escrow) public escrows;
 	uint256 public escrowCount;
 	IERC20 public paymentCurrency;
 
-	constructor(address _wormholeRelayer, IERC20 _token) Ownable(msg.sender) {
+	constructor(address _wormholeRelayer, IERC20 _token) Ownable() {
 		paymentCurrency = _token;
         wormholeRelayer = IWormholeRelayer(_wormholeRelayer);
 	}
@@ -54,7 +55,7 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 		address payable _payer,
 		uint256 _amount,
 		string memory _comment,
-		uint16 _sourceChain
+		uint16 _sourceChain,
 	) public {
 		escrows[escrowCount] = Escrow(
 			_payer,
@@ -62,7 +63,8 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 			_amount,
 			PaymentState.OPEN,
 			_comment,
-			_sourceChain
+			_sourceChain,
+            block.timestamp
 		);
 		escrowCount++;
 	}
