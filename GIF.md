@@ -1,4 +1,4 @@
-# MEGA
+# #MEGA
 ### Captured during ETHLondon 2023 hackathon
 
 _Late Night / Early Mornings for some, Hackers dont sleep..._
