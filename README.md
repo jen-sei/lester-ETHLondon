@@ -62,7 +62,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Wormhole** - Cross-chain App
 
-**Rarimo** - Identity in DeFi Challange
+**Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
 
 **Envio** - You are a multichain wizard
 
