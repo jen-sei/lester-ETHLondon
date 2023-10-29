@@ -13,11 +13,6 @@ DeFi represents a revolutionary shift away from traditional financial systems, w
 However, traditional financial systems have an essential component that DeFi has struggled to replicate effectively: identity verification. Banks and other financial institutions rely on an individual's personal information, but this model is often intrusive, centralized, and susceptible to data breaches. It also creates friction when trying to access financial services across different platforms and ecosystems.
 
 #### Self-Sovereign Identity: A Solution to Traditional Problems
-DeFi represents a revolutionary shift away from traditional financial systems, which are often centralized, slow, and burdened by intermediaries. In DeFi, financial services are built on blockchain technology, allowing for borderless and permissionless transactions, while also offering superior transparency and security.
-
-However, traditional financial systems have an essential component that DeFi has struggled to replicate effectively: identity verification. Banks and other financial institutions rely on an individual's personal information, but this model is often intrusive, centralized, and susceptible to data breaches. It also creates friction when trying to access financial services across different platforms and ecosystems.
-
-#### Self-Sovereign Identity: A Solution to Traditional Problems
 Self-sovereign identity (SSI) is a concept that empowers individuals to own, control, and share their identity information without the need for a centralized authority. In the context of DeFi, SSI can bring several transformative benefits:
 
 **Cross-Chain Bridge Infrastructure:** SSI can enable individuals to maintain a consistent identity across various blockchains and DeFi platforms. Instead of creating a new account and verifying their identity on every chain, users can utilize their self-sovereign identity to seamlessly interact with different networks. For example, a user's identity verified on Ethereum can be easily transferred and recognized on other EVM networks.
