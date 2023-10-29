@@ -40,7 +40,7 @@ export default function InputComponent() {
       </div>
       <div className=" justify-end">
         <BalanceAndExport></BalanceAndExport>
-        <VirtualKeyBoard onClick={handleInputSelection}></VirtualKeyBoard>
+        <VirtualKeyBoard onClick={handleInputSelection} data={inputData}></VirtualKeyBoard>
       </div>
     </div>
   );

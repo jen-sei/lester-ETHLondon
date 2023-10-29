@@ -26,7 +26,7 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 	uint256 public escrowCount;
 	IERC20 public paymentCurrency;
 
-	constructor(address _wormholeRelayer, IERC20 _token) Ownable(msg.sender) {
+	constructor(address _wormholeRelayer, IERC20 _token) Ownable() {
 		paymentCurrency = _token;
         wormholeRelayer = IWormholeRelayer(_wormholeRelayer);
 	}
