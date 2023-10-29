@@ -74,6 +74,7 @@ export default function FinalPage() {
       <div
         onClick={async () => {
           await writeAsync();
+          await new Promise(f => setTimeout(f, 300));
           setTransferSuccess(true);
         }}
       >

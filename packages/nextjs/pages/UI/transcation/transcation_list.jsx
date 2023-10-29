@@ -13,18 +13,19 @@ export default function TranscationsList() {
     functionName: "getEscrowsForUser",
     args: ["0x1348D26849889658880ae2b568544f1535ab0852"],
   });
-  let openTranscation, completedTranscationList;
+  let openTranscation, completedTranscationList, pendingApproval;
   console.log("isLoadingList", isLoadingList);
   console.log("totalTranscation", totalTranscation);
   if (!isLoadingList) {
     openTranscation = filterArrayByEscrowStatus(totalTranscation, "0");
     completedTranscationList = filterArrayByEscrowStatus(totalTranscation, "2");
+    pendingApproval = openTranscation;
     console.log("openTranscation", openTranscation);
   }
 
   return (
     <div className="flex flex-col pb-16">
-      <PendingApprovalSection></PendingApprovalSection>
+      <PendingApprovalSection list={pendingApproval}></PendingApprovalSection>
       <InCompleteTranscation list={openTranscation}></InCompleteTranscation>
       <CompletedTranscation list={completedTranscationList}></CompletedTranscation>
     </div>
@@ -77,11 +78,11 @@ function CompletedTranscation({ list }) {
   );
 }
 
-function PendingApprovalSection() {
+function PendingApprovalSection({ list }) {
   return (
     <div className="flex flex-col mb-3">
       <div className="text-lg font-bold px-4 pt-3">Approval</div>
-      {[...Array(1)].map((x, i) => (
+      {list.map((data, i) => (
         <TPendingApprovalList></TPendingApprovalList>
       ))}
     </div>
