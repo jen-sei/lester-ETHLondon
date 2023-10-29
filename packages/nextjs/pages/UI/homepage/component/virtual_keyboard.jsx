@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function VirtualKeyBoard({ onClick, moveToNextPage }) {
+export default function VirtualKeyBoard({ onClick, data }) {
   return (
     <div className="flex flex-col">
       <div className="grid grid-cols-3">
@@ -11,9 +11,13 @@ export default function VirtualKeyBoard({ onClick, moveToNextPage }) {
         ))}
       </div>
       <div className="grid grid-cols-3">
-        <GridItem data={","} onClick={() => onClick(",")}></GridItem>
-        <GridItem data={0}></GridItem>
-        <Link href={`./select_user/`}>
+        <div onClick={() => onClick(",")}>
+          <GridItem data={","}></GridItem>
+        </div>
+        <div onClick={() => onClick("0")}>
+          <GridItem data={0}></GridItem>
+        </div>
+        <Link href={`./select_user?amount=${data}`}>
           <GridItem data={"NEXT"}></GridItem>
         </Link>
       </div>

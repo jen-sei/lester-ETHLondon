@@ -1,7 +1,18 @@
-export default function AddCommentAndCameraIcon() {
+import { useState } from "react";
+
+export default function AddCommentAndCameraIcon({ onInputChange }) {
+  const [inputValue, setInputValue] = useState("");
+  const handleInputChange = e => {
+    setInputValue(e.target.value);
+    onInputChange(e.target.value);
+  };
   return (
-    <div className="flex flex-row mx-4">
-      <div className="flex flex-1 bg-base-100 shadow-xl p-2 mr-3 rounded">Add comment</div>
+    <div className="flex flex-row mx-4 mt-6">
+      <div className="flex flex-1 bg-base-100 shadow-xl p-2 mr-3 rounded">
+        <div>
+          <input type="text" value={inputValue} onChange={handleInputChange} placeholder="Input Comment" />
+        </div>
+      </div>
       <div className="h-15 w-15 bg-base-100 shadow-xl p-2 rounded">
         <svg
           xmlns="http://www.w3.org/2000/svg"
