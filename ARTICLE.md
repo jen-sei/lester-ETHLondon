@@ -40,6 +40,7 @@ _This vision of a DeFi world driven by self-sovereign identity was not just an i
 To manifest this promising vision, several crucial steps can be taken today. First and foremost, the DeFi community should embark on the journey of standardization. Collaborative efforts are needed to establish industry-wide standards for self-sovereign identity, ensuring seamless interoperability and fostering widespread adoption. An educational crusade should be launched, enlightening users about the profound benefits of self-sovereign identity and imparting the knowledge needed to safeguard and manage their digital identities securely. A spirit of collaboration should permeate the DeFi landscape as projects, identity providers, and blockchain platforms join forces. Together, they can construct robust self-sovereign identity solutions and seamlessly weave them into the fabric of DeFi applications, setting the stage for a future where financial services and identity exist harmoniously in a decentralized world.
 
 **Explore:** [Rarimo](https://rarimo.com/) a decentralized social layer focusing on cross-chain identity.
+
 Read more about importance of Proof-of-Humanity and why Rarimo Built the World’s First POH Aggregatorand [here](https://rarimo.medium.com/why-proof-of-humanity-is-so-important-and-why-rarimo-built-the-worlds-first-poh-aggregator-8d7088192c28).
 
 #
