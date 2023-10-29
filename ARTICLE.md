@@ -1,6 +1,7 @@
 # From DeFi to DeSelf
 ### Made during ETHLondon 2023 hackathon
 Read the article via mirror [here](https://mirror.xyz/jensei.eth/AP6tGOQXRqPmUPceDuKejd_L_WbsIwdqu9vjNNVJ_ag).
+
 ![Group 11 (1)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/a0918c5c-01c8-4488-ab8f-3e8935da1ffa)
 
 ## Redefining Identity in Financial Decentralization
