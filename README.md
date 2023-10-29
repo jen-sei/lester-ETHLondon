@@ -71,7 +71,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
 
-**Euler** - Euler Lens Challange
+**Euler** - Euler Lens Challange - check out our loop [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/GIF.md)
 
 ##
 
