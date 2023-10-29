@@ -52,6 +52,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 ...
 
 ## Bounties
+### Code
 **TRIAS** - Bounty set B: FLock AIxWeb3 Tool - Unlocking Decentralized Intelligence with FLock SDK
 
 **API3** - Best implementation of an API3 Oracle
@@ -62,13 +63,15 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Wormhole** - Cross-chain App
 
-**Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
-
 **Envio** - You are a multichain wizard
 
-**Euler** - Euler Lens Challange
-
 **Scaffold-ETH 2** - Build using Scaffold-ETH
+
+### No-code
+
+**Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
+
+**Euler** - Euler Lens Challange
 
 ##
 
