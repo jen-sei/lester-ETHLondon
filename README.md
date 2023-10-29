@@ -71,8 +71,6 @@ The project uses Scaffold-Eth-2 as a base for mobile dApp to speed up developmen
 
 **Euler** - Euler Lens Challange - check out our loop [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/GIF.md)
 
-![589a6d](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/03a0c4e7-9bcb-405f-ba59-4d9d732152f8)
-
 ##
 
 _DISCLAIMER: Our project has been created from scratch at the ETHLondon._
