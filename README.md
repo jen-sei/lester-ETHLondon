@@ -49,13 +49,9 @@ The project uses Scaffold-Eth-2 as a base for mobile dApp to speed up developmen
 
 ## Deployments
 
-Celo Alfajores testnet:
-- 
--
+**Celo Alfajores testnet:**
 
-Avalanche Fuji testnet
-- 
-- 
+**Avalanche Fuji testnet:**
 
 ## Bounties
 ### <ins>Code</ins>
