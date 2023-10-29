@@ -45,7 +45,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
 
   console.log(lesterToken.address);
 
-  await deploy("MerchantEscrow", {
+  await deploy("EscrowSingleChain", {
     from: deployer,
     // Contract constructor arguments
     args: [lesterToken.address],
