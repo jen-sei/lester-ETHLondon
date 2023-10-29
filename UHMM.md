@@ -9,6 +9,10 @@ See it posted [here](https://x.com/jensei_/status/1718579624278380782?s=20).
 
 ![uhmm2](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/95895b33-34e5-415e-bf0f-a173397f52c4)
 
+See it posted [here](https://twitter.com/NevvDevv/status/1718587365445292193).
+
 #
 
 ![uhmm3](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/d6e22892-f5a9-454e-8582-1d4e1c92dbf5)
+
+See it posted [here](https://twitter.com/manu_k_j/status/1718587316770378174?t=RjrYviDYjxe1Xb_MuMCsYQ&s=19).
