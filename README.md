@@ -20,6 +20,8 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Demo:** Watch our video [here](https://tape.xyz/watch/0x18ab-0xe1-DA-f2aa8bdf).
 
+**Brainstorming:** See our thinking process [here](https://www.figma.com/file/4jaVBPJQYWHIgjlXIalgeG/Brainstorming?type=whiteboard&node-id=0%3A1&t=vFJaIsiB0aN8dzzq-1).
+
 **License:** GNU General Public License v3.0
 
 ## Sponsors Tech Used
