@@ -1,5 +1,5 @@
-import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
+import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 /**
  * Deploys a contract named "YourContract" using the deployer account and
@@ -48,7 +48,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   await deploy("EscrowSingleChain", {
     from: deployer,
     // Contract constructor arguments
-    args: [lesterToken.address],
+    args: [lesterToken.address, lesterToken.address],
     log: true,
     // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
     // automatically mining the contract deployment transaction. There is no effect on live networks.

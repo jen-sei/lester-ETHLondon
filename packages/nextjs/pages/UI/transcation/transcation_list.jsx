@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useAccount } from "wagmi";
 import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
 import TListItem, { TranscationType } from "./components/t_list_item";
@@ -25,7 +26,7 @@ export default function TranscationsList() {
 
   return (
     <div className="flex flex-col pb-16">
-      <PendingApprovalSection list={pendingApproval}></PendingApprovalSection>
+      <PendingApprovalSection list={pendingApproval} updateApproval={() => {}}></PendingApprovalSection>
       <InCompleteTranscation list={openTranscation}></InCompleteTranscation>
       <CompletedTranscation list={completedTranscationList}></CompletedTranscation>
     </div>
@@ -39,21 +40,24 @@ function InCompleteTranscation({ list }) {
   return (
     <div className="flex flex-col mb-3">
       <div className="text-lg font-bold px-4 pt-3">In Complete</div>
-      {list.map((data, i) => (
-        <TListItem
-          transcationType={getTranscationType(data)}
-          amount={data.amount.toString()}
-          comment={data.comment}
-          address={data.seller}
-        ></TListItem>
-      ))}
+      {list === undefined || list.length == 0 ? (
+        <div className="pt-3"> No Transcation</div>
+      ) : (
+        list.map((data, i) => (
+          <TListItem
+            transcationType={getTranscationType(data)}
+            amount={data.amount.toString()}
+            comment={data.comment}
+            address={data.seller}
+          ></TListItem>
+        ))
+      )}
     </div>
   );
 }
 
 function CompletedTranscation({ list }) {
   let render;
-  console.log("!list", list);
   if (list === undefined || list.length == 0) {
     render = <div className="pt-3"> No Completed Transcation</div>;
   } else {
@@ -78,13 +82,30 @@ function CompletedTranscation({ list }) {
   );
 }
 
-function PendingApprovalSection({ list }) {
+function PendingApprovalSection({ list, updateApproval }) {
+  if (!list) {
+    return <div></div>;
+  }
+  console.log("list", list);
+  const [newList, setList] = useState([...list]);
+
+  console.log("newList", newList);
   return (
     <div className="flex flex-col mb-3">
       <div className="text-lg font-bold px-4 pt-3">Approval</div>
-      {list.map((data, i) => (
-        <TPendingApprovalList></TPendingApprovalList>
-      ))}
+      {newList === undefined || newList.length == 0 ? (
+        <div className="pt-3"> No Transcation</div>
+      ) : (
+        newList.map((data, i) => (
+          <TPendingApprovalList
+            refreshTranscation={() => {
+              var updatedList = list.filter(tran => tran != data);
+              setList(updatedList);
+              updateApproval(data);
+            }}
+          ></TPendingApprovalList>
+        ))
+      )}
     </div>
   );
 }

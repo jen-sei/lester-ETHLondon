@@ -32,7 +32,7 @@ export default function FinalPage() {
   const { writeAsync, isLoading, isMining } = useScaffoldContractWrite({
     contractName: "EscrowSingleChain",
     functionName: "requestPayment",
-    args: [takerAddress, payerAddress, amount, inputText],
+    args: [takerAddress, payerAddress, amount, inputText, 14],
     // For payable functions
     value: 0, //parseEther(amount),
     // The number of block confirmations to wait for before considering transaction to be confirmed (default : 1).

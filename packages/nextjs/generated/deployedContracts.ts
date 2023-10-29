@@ -10,6 +10,11 @@ const contracts = {
             {
               inputs: [
                 {
+                  internalType: "address",
+                  name: "_wormholeRelayer",
+                  type: "address",
+                },
+                {
                   internalType: "contract IERC20",
                   name: "_token",
                   type: "address",
@@ -17,6 +22,31 @@ const contracts = {
               ],
               stateMutability: "nonpayable",
               type: "constructor",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: false,
+                  internalType: "string",
+                  name: "greeting",
+                  type: "string",
+                },
+                {
+                  indexed: false,
+                  internalType: "uint16",
+                  name: "senderChain",
+                  type: "uint16",
+                },
+                {
+                  indexed: false,
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "GreetingReceived",
+              type: "event",
             },
             {
               anonymous: false,
@@ -66,6 +96,44 @@ const contracts = {
             {
               inputs: [
                 {
+                  internalType: "uint16",
+                  name: "targetChain",
+                  type: "uint16",
+                },
+                {
+                  internalType: "address",
+                  name: "targetAddress",
+                  type: "address",
+                },
+                {
+                  internalType: "string",
+                  name: "action",
+                  type: "string",
+                },
+                {
+                  internalType: "address payable",
+                  name: "payer",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "amount",
+                  type: "uint256",
+                },
+                {
+                  internalType: "string",
+                  name: "comment",
+                  type: "string",
+                },
+              ],
+              name: "crossChainActionPayment",
+              outputs: [],
+              stateMutability: "payable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
                   internalType: "uint256",
                   name: "_escrowId",
                   type: "uint256",
@@ -100,6 +168,11 @@ const contracts = {
               name: "escrows",
               outputs: [
                 {
+                  internalType: "uint256",
+                  name: "escrowId",
+                  type: "uint256",
+                },
+                {
                   internalType: "address",
                   name: "buyer",
                   type: "address",
@@ -124,6 +197,16 @@ const contracts = {
                   name: "comment",
                   type: "string",
                 },
+                {
+                  internalType: "uint16",
+                  name: "sourceChain",
+                  type: "uint16",
+                },
+                {
+                  internalType: "uint256",
+                  name: "time",
+                  type: "uint256",
+                },
               ],
               stateMutability: "view",
               type: "function",
@@ -140,6 +223,11 @@ const contracts = {
               outputs: [
                 {
                   components: [
+                    {
+                      internalType: "uint256",
+                      name: "escrowId",
+                      type: "uint256",
+                    },
                     {
                       internalType: "address",
                       name: "buyer",
@@ -165,10 +253,46 @@ const contracts = {
                       name: "comment",
                       type: "string",
                     },
+                    {
+                      internalType: "uint16",
+                      name: "sourceChain",
+                      type: "uint16",
+                    },
+                    {
+                      internalType: "uint256",
+                      name: "time",
+                      type: "uint256",
+                    },
                   ],
                   internalType: "struct EscrowSingleChain.Escrow[]",
                   name: "",
                   type: "tuple[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "latestAddress",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "latestGreeting",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
                 },
               ],
               stateMutability: "view",
@@ -201,6 +325,58 @@ const contracts = {
               type: "function",
             },
             {
+              inputs: [
+                {
+                  internalType: "uint16",
+                  name: "targetChain",
+                  type: "uint16",
+                },
+              ],
+              name: "quoteCrossChainGreeting",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "cost",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes",
+                  name: "payload",
+                  type: "bytes",
+                },
+                {
+                  internalType: "bytes[]",
+                  name: "",
+                  type: "bytes[]",
+                },
+                {
+                  internalType: "bytes32",
+                  name: "",
+                  type: "bytes32",
+                },
+                {
+                  internalType: "uint16",
+                  name: "sourceChain",
+                  type: "uint16",
+                },
+                {
+                  internalType: "bytes32",
+                  name: "deliveryHash",
+                  type: "bytes32",
+                },
+              ],
+              name: "receiveWormholeMessages",
+              outputs: [],
+              stateMutability: "payable",
+              type: "function",
+            },
+            {
               inputs: [],
               name: "renounceOwnership",
               outputs: [],
@@ -229,10 +405,34 @@ const contracts = {
                   name: "_comment",
                   type: "string",
                 },
+                {
+                  internalType: "uint16",
+                  name: "_sourceChain",
+                  type: "uint16",
+                },
               ],
               name: "requestPayment",
               outputs: [],
               stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes32",
+                  name: "",
+                  type: "bytes32",
+                },
+              ],
+              name: "seenDeliveryVaaHashes",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
               type: "function",
             },
             {
@@ -246,6 +446,19 @@ const contracts = {
               name: "transferOwnership",
               outputs: [],
               stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "wormholeRelayer",
+              outputs: [
+                {
+                  internalType: "contract IWormholeRelayer",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
               type: "function",
             },
           ],
