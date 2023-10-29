@@ -52,7 +52,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 ...
 
 ## Bounties
-#### Code
+### Code
 **TRIAS** - Bounty set B: FLock AIxWeb3 Tool - Unlocking Decentralized Intelligence with FLock SDK
 
 **API3** - Best implementation of an API3 Oracle
@@ -67,7 +67,7 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 **Scaffold-ETH 2** - Build using Scaffold-ETH
 
-#### No-code
+### No-code
 
 **Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
 
