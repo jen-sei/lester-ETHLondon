@@ -69,6 +69,8 @@ The LESTER project, conceived at ETHLondon, seeks to address these challenges by
 
 ### <ins>No-code</ins>
 
+**Flare** - No Code Challange x Best Content - view our meme [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/UHMM.md)
+
 **Rarimo** - Identity in DeFi Challange - find our article [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/ARTICLE.md)
 
 **Euler** - Euler Lens Challange - check out our loop [here](https://github.com/JustAnotherDevv/EthLondon-2023/blob/main/GIF.md)
