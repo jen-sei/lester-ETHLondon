@@ -2,7 +2,7 @@
 ### Made during ETHLondon 2023 hackathon
 Read the article via mirror [here](https://mirror.xyz/jensei.eth/AP6tGOQXRqPmUPceDuKejd_L_WbsIwdqu9vjNNVJ_ag).
 
-![Group 11 (1)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/a0918c5c-01c8-4488-ab8f-3e8935da1ffa)
+![Group 11 (1)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/65650ed7-bfd2-4d1c-bac9-76c8b0d1654b)
 
 ## Redefining Identity in Financial Decentralization
 Decentralized Finance (DeFi) has revolutionized the way we interact with financial systems. It has not only democratized access to financial services but has also given individuals greater control over their assets. However, there's still a critical missing piece in the DeFi puzzle: identity. This is where self-sovereign identity comes into play, addressing the problems of traditional financial ecosystems and unlocking new possibilities in the world of decentralized finance. In this article, we'll explore how self-sovereign identity can reshape the DeFi landscape, discuss current developments, and envision a future empowered by this technology.
@@ -34,7 +34,7 @@ _Yet, the most magical transformation was in the realm of inclusion. Self-sovere
 
 _This vision of a DeFi world driven by self-sovereign identity was not just an imaginative dream but a tantalizing glimpse into a potential future, where technology and innovation danced hand in hand, reshaping the way we interact with finance and identity._
 
-![image 25](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/8241041f-1ea9-43c8-a6dc-0bdd1400a4fd)
+![image 25](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/bdf6b121-d3be-4ffb-836a-5cf823aed39b)
 
 > Got inspired, anon?
 
