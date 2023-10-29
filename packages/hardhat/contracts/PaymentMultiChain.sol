@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "./IWormholeRelayer.sol";
 import "./IWormholeReceiver.sol";
 
-contract PaymentMultiChain is Ownable, IWormholeReceiver {
+contract EscrowSingleChain is Ownable, IWormholeReceiver {
 	enum PaymentState {
 		OPEN,
 		PAID,
@@ -14,12 +14,14 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 	}
 
 	struct Escrow {
+		uint256 escrowId;
 		address buyer;
 		address payable seller;
 		uint256 amount;
 		PaymentState escrowStatus;
 		string comment;
 		uint16 sourceChain;
+        uint256 time;
 	}
 
 	mapping(uint256 => Escrow) public escrows;
@@ -57,12 +59,14 @@ contract PaymentMultiChain is Ownable, IWormholeReceiver {
 		uint16 _sourceChain
 	) public {
 		escrows[escrowCount] = Escrow(
+			escrowCount,
 			_payer,
 			_taker,
 			_amount,
 			PaymentState.OPEN,
 			_comment,
-			_sourceChain
+			_sourceChain,
+            block.timestamp
 		);
 		escrowCount++;
 	}
