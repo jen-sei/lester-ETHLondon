@@ -3,6 +3,8 @@
 
 _Late Night / Early Mornings for some, Hackers dont sleep..._
 
-https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/549c9bda-1a7a-4247-98ae-d8d874e0e4f2
+
+https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/584a7e4e-3eb4-4fd7-8361-1f80adfcbec9
+
 
 See it posted [here](https://x.com/jensei_/status/1718585144393556388?s=20).
