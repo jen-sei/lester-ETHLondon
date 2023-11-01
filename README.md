@@ -1,6 +1,6 @@
 # Lester-ETHLondon
 ### Made during ETHLondon 2023 hackathon
-A mobile first cross-chain escrow service, leveraging Wormhole for seemlesss bridging ✨
+A mobile first cross-chain escrow service, leveraging Wormhole for seamlesss bridging ✨
 
 ![Frame 1 (2)](https://github.com/JustAnotherDevv/EthLondon-2023/assets/101796507/05fb2c53-7841-47ff-9bac-0f530690e976)
 
